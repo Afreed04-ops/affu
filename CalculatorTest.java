@@ -1,5 +1,6 @@
 import org.junit.test;
-import static org.junit Assert.assert Equals;
+import static org.junit.Assert.assertEquals;
+
 public class CalculatorTest{
 Calculator cal=new Calculator();
 @Test public void testAddition(){assert Equals(15,cal.add(10,5));}
